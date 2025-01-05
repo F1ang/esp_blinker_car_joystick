@@ -1,0 +1,287 @@
+2018-09-13 12:26:15,212 DEBUG [Main.lambda$run$0] Arguments: [-ioc, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor.ioc, -xdm, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor.wb_def]
+2018-09-13 12:26:15,218 DEBUG [ArgsValue.readPropertiesFile] [AppConfig] pack.source = "C:\Program Files (x86)\STMicroelectronics\MC_SDK_5.2.0\Middlewares\ST\MotorControl" 
+2018-09-13 12:26:15,219 DEBUG [ArgsValue.readPropertiesFile] [UserConfig] do not exist in "C:\Users\Ging\.st_motor_control\wb2mx.properties" 
+2018-09-13 12:26:15,219 DEBUG [ArgsValue.getConfigProperties] pack.source = "../../../../Middlewares/ST/MotorControl"
+2018-09-13 12:26:15,236 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[xdm]: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor.wb_def
+2018-09-13 12:26:15,236 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[ioc]: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor.ioc
+2018-09-13 12:26:15,238 DEBUG [ArgsValue.retrieve] {xdm=D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor.wb_def, updftl=templates/wb_ioc_mc-middleware.ftl, mx_timeout=-1, exp=templates/wb-defines_where_and_what.txt, ioc=D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor.ioc, pack=../../../../Middlewares/ST/MotorControl, ftl=templates/wb_ioc_template.ftl}
+2018-09-13 12:26:15,273 DEBUG [WindowsCubeMxFinder.lambda$findThem$2] Found 32-bit subkey HKEY_LOCAL_MACHINE\~~~\Uninstall\STM32CubeMX
+2018-09-13 12:26:15,281 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'H:\STM32CubeMX\STM32CubeMX.exe'
+2018-09-13 12:26:15,282 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'H:\STM32CubeMX\plugins\updater.jar'
+2018-09-13 12:26:18,667 DEBUG [EnvironmentChecker.checkPack] STM32CubeMX.Version: 4.26.1-RC3
+2018-09-13 12:26:18,803 DEBUG [EnvironmentChecker.checkPack] Waiting for updater to end working process
+2018-09-13 12:26:18,903 DEBUG [EnvironmentChecker.checkPack] Updater now available
+2018-09-13 12:26:18,906 DEBUG [RetrieveFirmwareVersion.from_PackConfig_xfile] Looking for version from MotorControl_Configs.xml: C:\Program Files (x86)\STMicroelectronics\MC_SDK_5.2.0\Middlewares\ST\MotorControl\MotorControl_Configs.xml
+2018-09-13 12:26:18,917 DEBUG [RetrieveFirmwareVersion.minimum_supporte_version] minimum_supporte_version MotorControlFirmware.Version: 5.2.0
+2018-09-13 12:26:18,919 DEBUG [EnvironmentChecker.deploy_MCPack_to_MxRepo] Deployment strategy class: VersionedFolderStyle_MCPackDeployer
+2018-09-13 12:26:18,919 DEBUG [EnvironmentChecker.deploy_MCPack_to_MxRepo] Expected MC Pack 5.2.0-Full already deployed
+2018-09-13 12:26:18,942 DEBUG [DataSetUpdater.update] Updating data set
+2018-09-13 12:26:18,942 DEBUG [DataSetUpdater.update] Update done
+2018-09-13 12:26:18,943 INFO  [IocGenerator.logModulesVersionInfo] Version info: 
+2018-09-13 12:26:18,946 INFO  [IocGenerator.logModulesVersionInfo]   MC Workbench       : 5.2.0.18503
+2018-09-13 12:26:18,949 INFO  [IocGenerator.logModulesVersionInfo]   WB_to_Mx           : 0.13.3.template-18-08-02
+2018-09-13 12:26:18,953 INFO  [IocGenerator.logModulesVersionInfo]   STM32CubeMX        : 4.26.1
+2018-09-13 12:26:18,956 INFO  [IocGenerator.logModulesVersionInfo]   MC Firmware Library: 5.2.0-Full
+2018-09-13 12:26:18,959 INFO  [IocGenerator.logModulesVersionInfo] Generation options: 
+2018-09-13 12:26:18,961 INFO  [IocGenerator.logModulesVersionInfo]   Target Toolchain   : IAR EWARM
+2018-09-13 12:26:18,963 INFO  [IocGenerator.logModulesVersionInfo]   Target Driver      : HAL - Hardware Abstraction Layer
+
+2018-09-13 12:26:18,967 DEBUG [IocGenerator.process] Updating ioc file: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor.ioc
+2018-09-13 12:26:18,979 DEBUG [IocGenerator.createOutput] Generating file from template templates\wb_ioc_mc-middleware.ftl
+2018-09-13 12:26:19,387 DEBUG [IocGenerator.process] Updated ioc file D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor.ioc
+2018-09-13 12:26:19,389 INFO  [LineInfo_to_exitCode.log_LineInfo] Updated ioc: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor.ioc
+2018-09-13 12:26:19,403 INFO  [Wb2MxProcess.lambda$create_extSettings_file_in$82c805cd$1] Generated D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\.extSettings
+2018-09-13 12:26:19,503 DEBUG [CubeMxRunner.create_code_generation_script_for] Generated CubeMx script file: C:\Users\Ging\AppData\Local\Temp\WB_to_Mx-ysffocfocvpmsmhallsensor-5649273258709196865.script
+2018-09-13 12:26:19,512 DEBUG [SignalCatcher.listenTo] Listen to signal INT
+2018-09-13 12:26:19,513 DEBUG [SignalCatcher.listenTo] Listen to signal TERM
+2018-09-13 12:26:19,513 INFO  [CubeMxRunner.run$] Code generation started
+2018-09-13 12:26:19,980 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:19,978 [INFO] MicroXplorer:478 - Detected Java Version = 1.8.0_151
+2018-09-13 12:26:19,982 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:19,982 [INFO] ApplicationProperties:181 - Using Application install path: H:\STM32CubeMX
+2018-09-13 12:26:19,993 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:19,991 [INFO] DbMcusXml:68 - Set database path to: H:\STM32CubeMX\\db\/mcu/
+2018-09-13 12:26:19,996 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:19,996 [INFO] DbBoardsPdsc:54 - Set plugin database path to: H:\STM32CubeMX\\db\/plugins/boardmanager/
+2018-09-13 12:26:19,996 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:19,996 [INFO] DbMcus:256 - Set plugin images path to: H:\STM32CubeMX\\db\/plugins/mcufinder/images/
+2018-09-13 12:26:19,997 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:19,996 [INFO] DbBoards:230 - Set plugin images path to: H:\STM32CubeMX\\db\/plugins/mcufinder/images/
+2018-09-13 12:26:19,998 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:19,998 [INFO] APIGFXSelector:72 - Set database path to: H:\STM32CubeMX\\db\/plugins/mcufinder/mcu/
+2018-09-13 12:26:20,004 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,004 [INFO] DbMcusAds:72 - Set database path to: C:\Users\Ging\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-13 12:26:20,005 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,004 [INFO] DbMcusDocs:86 - Set database path to: C:\Users\Ging\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-13 12:26:20,006 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,006 [INFO] DbMcusJson:58 - Set database path to: C:\Users\Ging\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-13 12:26:20,007 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,007 [INFO] DbBoardsDocs:78 - Set database path to: C:\Users\Ging\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-13 12:26:20,008 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,008 [INFO] DbBoardsJson:53 - Set database path to: C:\Users\Ging\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-13 12:26:20,115 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,115 [INFO] RulesReader:53 - Compatibility file has been processed (125 Rules)
+2018-09-13 12:26:20,133 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,133 [INFO] STM32CubeMX:30 - Starting STM32CubeMX
+2018-09-13 12:26:20,722 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,722 [INFO] MainPanel:116 - HeapMemory: 16252928
+2018-09-13 12:26:20,918 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,916 [INFO] DbMcusXml:68 - Set database path to: H:\STM32CubeMX\\db\/mcu/
+2018-09-13 12:26:20,918 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,918 [INFO] DbBoardsPdsc:54 - Set plugin database path to: H:\STM32CubeMX\\db\/plugins/boardmanager/
+2018-09-13 12:26:20,918 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,918 [INFO] DbMcus:256 - Set plugin images path to: H:\STM32CubeMX\\db\/plugins/mcufinder/images/
+2018-09-13 12:26:20,918 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,918 [INFO] DbBoards:230 - Set plugin images path to: H:\STM32CubeMX\\db\/plugins/mcufinder/images/
+2018-09-13 12:26:20,918 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,918 [INFO] APIGFXSelector:72 - Set database path to: H:\STM32CubeMX\\db\/plugins/mcufinder/mcu/
+2018-09-13 12:26:20,919 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,919 [INFO] DbMcusAds:72 - Set database path to: C:\Users\Ging\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-13 12:26:20,919 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,919 [INFO] DbMcusDocs:86 - Set database path to: C:\Users\Ging\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-13 12:26:20,919 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,919 [INFO] DbMcusJson:58 - Set database path to: C:\Users\Ging\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-13 12:26:20,920 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,920 [INFO] DbBoardsDocs:78 - Set database path to: C:\Users\Ging\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-13 12:26:20,920 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,920 [INFO] DbBoardsJson:53 - Set database path to: C:\Users\Ging\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-13 12:26:20,926 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,926 [INFO] ApplicationProperties:181 - Using Application install path: H:\STM32CubeMX
+2018-09-13 12:26:20,927 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,927 [INFO] PluginManage:141 - Search for loadable plugins [exclusion list=]
+2018-09-13 12:26:20,929 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,929 [INFO] PluginManage:263 - Check plugin clock
+2018-09-13 12:26:20,971 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,971 [INFO] PluginManage:308 - Loaded plugin clock (category:clock,tabindex:1)
+2018-09-13 12:26:20,972 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,971 [INFO] PluginManage:263 - Check plugin filemanager
+2018-09-13 12:26:20,992 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,992 [INFO] PluginManage:308 - Loaded plugin filemanager (category:base,tabindex:10)
+2018-09-13 12:26:20,992 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:20,992 [INFO] PluginManage:263 - Check plugin ipmanager
+2018-09-13 12:26:21,004 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,004 [INFO] PluginManage:308 - Loaded plugin ipmanager (category:base,tabindex:2)
+2018-09-13 12:26:21,004 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,004 [INFO] PluginManage:263 - Check plugin pinoutconfig
+2018-09-13 12:26:21,024 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,024 [INFO] PluginManage:308 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2018-09-13 12:26:21,024 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,024 [INFO] PluginManage:263 - Check plugin power
+2018-09-13 12:26:21,093 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,092 [INFO] PluginManage:308 - Loaded plugin power (category:power,tabindex:3)
+2018-09-13 12:26:21,093 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,092 [INFO] PluginManage:263 - Check plugin projectmanager
+2018-09-13 12:26:21,152 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,151 [INFO] PluginManage:308 - Loaded plugin projectmanager (category:projectmanager,tabindex:11)
+2018-09-13 12:26:21,152 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,152 [INFO] PluginManage:263 - Check plugin thirdparty
+2018-09-13 12:26:21,185 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,185 [INFO] ThirdPartyDb:293 - Open Third Party DataBase File (C:/Users/Ging/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 1 ms. number of Sw pack : 0
+2018-09-13 12:26:21,200 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,199 [INFO] PluginManage:308 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2018-09-13 12:26:21,200 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,200 [INFO] PluginManage:263 - Check plugin updater
+2018-09-13 12:26:21,209 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,208 [INFO] Updater:171 - Updater Version found : 4.26.1
+2018-09-13 12:26:21,311 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,311 [INFO] MainUpdater:193 - Updater Check For Update Now.
+2018-09-13 12:26:21,311 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,311 [INFO] MicroXplorer:338 - Change Default Database Version : DB.4.0.261
+2018-09-13 12:26:21,312 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,312 [INFO] MicroXplorer:358 - Change Database Version : DB.4.0.261
+2018-09-13 12:26:21,312 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,312 [INFO] PluginManage:308 - Loaded plugin updater (category:base,tabindex:12)
+2018-09-13 12:26:21,312 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,312 [INFO] PluginManage:236 - PluginManage : ReOrganize retry [4x]
+2018-09-13 12:26:21,341 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,341 [INFO] CheckServerUpdateThread:121 - End of CheckServer Thread
+2018-09-13 12:26:21,390 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,389 [INFO] PinOutPanel:995 - setPackage(No Configuration,No Configuration)
+2018-09-13 12:26:21,418 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,418 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2018-09-13 12:26:21,420 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,420 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2018-09-13 12:26:21,421 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,421 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2018-09-13 12:26:21,434 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,433 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2018-09-13 12:26:21,436 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,435 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2018-09-13 12:26:21,440 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,439 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2018-09-13 12:26:21,441 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,441 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2018-09-13 12:26:21,444 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,444 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2018-09-13 12:26:21,448 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,448 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2018-09-13 12:26:21,450 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,449 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2018-09-13 12:26:21,451 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,451 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2018-09-13 12:26:21,453 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,452 [INFO] PluginManager:200 - loadIPPluginJar : add gfxsimulator
+2018-09-13 12:26:21,455 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,455 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2018-09-13 12:26:21,457 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,457 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2018-09-13 12:26:21,458 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,458 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2018-09-13 12:26:21,460 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,460 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2018-09-13 12:26:21,461 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,461 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2018-09-13 12:26:21,464 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,464 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2018-09-13 12:26:21,467 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,467 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2018-09-13 12:26:21,469 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,469 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2018-09-13 12:26:21,471 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,471 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2018-09-13 12:26:21,473 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,473 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2018-09-13 12:26:21,474 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,474 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2018-09-13 12:26:21,476 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,476 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2018-09-13 12:26:21,478 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,478 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2018-09-13 12:26:21,479 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,479 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2018-09-13 12:26:21,482 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,482 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2018-09-13 12:26:21,484 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,483 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2018-09-13 12:26:21,487 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,487 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2018-09-13 12:26:21,489 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,489 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2018-09-13 12:26:21,584 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,584 [INFO] MicroXplorer:328 - Change Database Path : 
+2018-09-13 12:26:21,584 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,584 [INFO] MicroXplorer:358 - Change Database Version : DB.4.0.261
+2018-09-13 12:26:21,584 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,584 [INFO] PinOutPanel:995 - setPackage(No Configuration,No Configuration)
+2018-09-13 12:26:21,688 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,688 [INFO] MicroXplorer:328 - Change Database Path : 
+2018-09-13 12:26:21,688 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,688 [INFO] MicroXplorer:358 - Change Database Version : DB.4.0.261
+2018-09-13 12:26:21,689 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,688 [INFO] PinOutPanel:995 - setPackage(No Configuration,No Configuration)
+2018-09-13 12:26:21,690 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,690 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 12108072 Bytes (25972736)
+2018-09-13 12:26:21,692 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:21,692 [INFO] OpenFileManager:257 - Change cursor
+2018-09-13 12:26:24,193 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,193 [INFO] IntegrityCheckThread:94 - End integrity checks thread
+2018-09-13 12:26:24,193 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,193 [INFO] ThirdPartyDb:263 - Close Third Party DataBase File (C:/Users/Ging/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2018-09-13 12:26:24,732 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,732 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Invalid parameter (EnableInjectedConversion)
+2018-09-13 12:26:24,733 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,733 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Rank) has Id (1#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,734 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,733 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Channel) has Id (1#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,734 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,734 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (SamplingTime) has Id (1#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,734 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,734 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (InjectedOffset) has Id (1#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,734 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,734 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Rank) has Id (2#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,734 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,734 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Channel) has Id (2#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,734 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,734 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (SamplingTime) has Id (2#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,735 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,734 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (InjectedOffset) has Id (2#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,735 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,734 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Rank) has Id (3#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,735 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,734 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Channel) has Id (3#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,735 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,735 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (SamplingTime) has Id (3#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,735 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,735 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (InjectedOffset) has Id (3#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,735 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,735 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Invalid parameter (EnableRegularConversion)
+2018-09-13 12:26:24,736 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,736 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Rank) has Id (1#ChannelRegularConversion) currently not set
+2018-09-13 12:26:24,736 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,736 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Channel) has Id (1#ChannelRegularConversion) currently not set
+2018-09-13 12:26:24,736 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,736 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (SamplingTime) has Id (1#ChannelRegularConversion) currently not set
+2018-09-13 12:26:24,736 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,736 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Invalid parameter (OffsetNumber)
+2018-09-13 12:26:24,737 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,736 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Offset) has Id (1#ChannelRegularConversion) currently not set
+2018-09-13 12:26:24,737 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,737 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Rank) has Id (2#ChannelRegularConversion) currently not set
+2018-09-13 12:26:24,737 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,737 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Channel) has Id (2#ChannelRegularConversion) currently not set
+2018-09-13 12:26:24,737 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,737 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (SamplingTime) has Id (2#ChannelRegularConversion) currently not set
+2018-09-13 12:26:24,737 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,737 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Invalid parameter (OffsetNumber)
+2018-09-13 12:26:24,737 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,737 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC1) : Parameter (Offset) has Id (2#ChannelRegularConversion) currently not set
+2018-09-13 12:26:24,738 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,738 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Invalid parameter (EnableInjectedConversion)
+2018-09-13 12:26:24,739 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,739 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (Rank) has Id (1#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,739 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,739 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (Channel) has Id (1#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,739 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,739 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (SamplingTime) has Id (1#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,740 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,739 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (InjectedOffset) has Id (1#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,740 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,739 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (Rank) has Id (2#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,740 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,740 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (Channel) has Id (2#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,740 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,740 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (SamplingTime) has Id (2#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,740 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,740 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (InjectedOffset) has Id (2#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,740 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,740 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (Rank) has Id (3#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,740 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,740 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (Channel) has Id (3#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,740 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,740 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (SamplingTime) has Id (3#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,741 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,740 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (InjectedOffset) has Id (3#ChannelInjectedConversion) currently not set
+2018-09-13 12:26:24,741 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,740 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Invalid parameter (EnableRegularConversion)
+2018-09-13 12:26:24,741 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,741 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (Rank) has Id (1#ChannelRegularConversion) currently not set
+2018-09-13 12:26:24,741 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,741 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (Channel) has Id (1#ChannelRegularConversion) currently not set
+2018-09-13 12:26:24,741 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,741 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (ADC2) : Parameter (SamplingTime) has Id (1#ChannelRegularConversion) currently not set
+2018-09-13 12:26:24,852 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,852 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (CPU_CLK_168_MHZ)
+2018-09-13 12:26:24,853 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,852 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (EXT_CLK_8_MHZ)
+2018-09-13 12:26:24,854 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,854 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Parameter (INRUSH_CURRLIMIT_AT_POWER_ON) has invalid value (true)
+2018-09-13 12:26:24,855 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,854 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MAX_MODULATION_97_PER_CENT)
+2018-09-13 12:26:24,855 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,855 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MC_WORKBENCH_VERSION)
+2018-09-13 12:26:24,855 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,855 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MCU)
+2018-09-13 12:26:24,855 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,855 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MOTOR_TYPE)
+2018-09-13 12:26:24,855 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,855 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_COMP_THRESHOLD)
+2018-09-13 12:26:24,857 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,856 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Parameter (OVERCURR_FEEDBACK_POLARITY) has invalid value (EMSTOP_ACTIVE_LOW)
+2018-09-13 12:26:24,859 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,859 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (WB_to_Mx_template_version)
+2018-09-13 12:26:24,859 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,859 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (WB_to_Mx_version)
+2018-09-13 12:26:24,859 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,859 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (RCC) : Parameter (48MHZClocksFreq_Value) has invalid value (84000000)
+2018-09-13 12:26:24,860 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,860 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2018-09-13 12:26:24,873 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,873 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (TIM8) : Parameter (Pulse) has Id (PWM Generation1 CH1) currently not set
+2018-09-13 12:26:24,873 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,873 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (TIM8) : Parameter (Pulse) has Id (PWM Generation2 CH2) currently not set
+2018-09-13 12:26:24,874 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:24,873 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (TIM8) : Parameter (Pulse) has Id (PWM Generation3 CH3) currently not set
+2018-09-13 12:26:25,518 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:25,518 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 95571360 Bytes (114917376)
+2018-09-13 12:26:25,607 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:25,607 [INFO] ThirdPartyDb:293 - Open Third Party DataBase File (C:/Users/Ging/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 0
+2018-09-13 12:26:25,898 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:25,898 [INFO] PinOutPanel:995 - setPackage(No Configuration,No Configuration)
+2018-09-13 12:26:25,899 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:25,899 [INFO] PinOutPanel:995 - setPackage(STM32F407IGHx,UFBGA176)
+2018-09-13 12:26:27,520 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:27,520 [INFO] UtilMem:74 - Before build in PCC Used Memory: 65382944 Bytes (137318400)
+2018-09-13 12:26:27,741 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:27,740 [INFO] SharedServices:56 - Folder for power plug-in: C:/Users/Ging/.stm32cubemx/plugins/power
+2018-09-13 12:26:27,741 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:27,741 [INFO] UtilMem:74 - After build in PCC Used Memory: 86868368 Bytes (137318400)
+2018-09-13 12:26:27,791 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:27,790 [INFO] OpenFileManager:275 - Restore cursor
+2018-09-13 12:26:27,836 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:27,835 [INFO] DbMcusXml:106 - Load MCU database from H:\STM32CubeMX\\db\/mcu/families.xml
+2018-09-13 12:26:28,331 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:28,331 [INFO] DbMcusJson:86 - JSON generation date=Tue Jul 17 21:19:56 CST 2018 (1531833596)
+2018-09-13 12:26:28,969 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:28,969 [INFO] DbMcus:186 - Found 1181 MCUs (1139 are supported by CubeMX, 1139 are visible in CubeMX)
+2018-09-13 12:26:28,970 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:28,970 [INFO] ApiDb:146 - User favorites file not found: C:\Users\Ging/.stm32cubemx/favorites.mcus.txt
+2018-09-13 12:26:28,970 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:28,970 [INFO] DbMcus:197 - Set 0 / 0 favorites MCUs
+2018-09-13 12:26:29,825 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:29,825 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 160983888 Bytes (259522560)
+2018-09-13 12:26:29,853 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:29,853 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: MotorControl
+2018-09-13 12:26:29,854 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:29,853 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: TIM1_8
+2018-09-13 12:26:29,854 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:29,854 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: ADC
+2018-09-13 12:26:29,854 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:29,854 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: SYS
+2018-09-13 12:26:29,854 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:29,854 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: ADC
+2018-09-13 12:26:29,854 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:29,854 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: RCC
+2018-09-13 12:26:29,854 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:29,854 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: NVIC
+2018-09-13 12:26:29,854 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:29,854 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: USART
+2018-09-13 12:26:29,855 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:29,854 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: DAC
+2018-09-13 12:26:29,855 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:29,854 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: TIM1_8
+2018-09-13 12:26:30,019 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:30,019 [INFO] CodeGenerator:502 - code generatio: config db path: H:\STM32CubeMX\\db\
+2018-09-13 12:26:30,265 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:30,265 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\MXTmpFiles\license.tmp_save
+2018-09-13 12:26:30,472 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:30,472 [INFO] CodeEngine:202 - Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\MXTmpFiles\license.tmp
+2018-09-13 12:26:30,576 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:30,575 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\MXTmpFiles\gpio.tmp_save
+2018-09-13 12:26:30,659 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:30,659 [INFO] CodeEngine:202 - Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\MXTmpFiles\gpio.tmp
+2018-09-13 12:26:31,654 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:31,654 [INFO] ApiDbMcu:310 - Load IP Config File for MotorControl
+2018-09-13 12:26:31,722 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:31,722 [INFO] Middleware:891 - No code input for Bsp Dependency
+2018-09-13 12:26:31,784 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:31,784 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\motorcontrol.c_save
+2018-09-13 12:26:31,846 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\motorcontrol.c
+2018-09-13 12:26:31,871 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:31,870 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\motorcontrol.h_save
+2018-09-13 12:26:31,934 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\motorcontrol.h
+2018-09-13 12:26:31,964 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:31,964 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\drive_parameters.h_save
+2018-09-13 12:26:32,061 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\drive_parameters.h
+2018-09-13 12:26:32,083 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:32,082 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\mc_tasks.h_save
+2018-09-13 12:26:32,142 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\mc_tasks.h
+2018-09-13 12:26:32,173 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:32,173 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\mc_api.c_save
+2018-09-13 12:26:32,274 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\mc_api.c
+2018-09-13 12:26:32,307 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:32,306 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\motor_control_protocol.c_save
+2018-09-13 12:26:32,393 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\motor_control_protocol.c
+2018-09-13 12:26:32,423 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:32,423 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\mc_api.h_save
+2018-09-13 12:26:32,494 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\mc_api.h
+2018-09-13 12:26:32,743 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:32,740 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\mc_config.c_save
+2018-09-13 12:26:32,934 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\mc_config.c
+2018-09-13 12:26:32,966 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:32,966 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\mc_config.h_save
+2018-09-13 12:26:33,045 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\mc_config.h
+2018-09-13 12:26:33,214 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:33,210 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\mc_stm_types.h_save
+2018-09-13 12:26:33,363 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\mc_stm_types.h
+2018-09-13 12:26:33,424 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:33,423 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\mc_tasks.c_save
+2018-09-13 12:26:33,670 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\mc_tasks.c
+2018-09-13 12:26:33,912 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:33,912 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\regular_conversion_manager.c_save
+2018-09-13 12:26:34,053 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\regular_conversion_manager.c
+2018-09-13 12:26:34,079 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:34,079 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\regular_conversion_manager.h_save
+2018-09-13 12:26:34,147 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\regular_conversion_manager.h
+2018-09-13 12:26:34,327 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:34,326 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\parameters_conversion.h_save
+2018-09-13 12:26:34,596 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\parameters_conversion.h
+2018-09-13 12:26:34,630 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:34,630 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\parameters_conversion_f4xx.h_save
+2018-09-13 12:26:34,694 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\parameters_conversion_f4xx.h
+2018-09-13 12:26:34,856 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:34,855 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\pmsm_motor_parameters.h_save
+2018-09-13 12:26:35,053 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\pmsm_motor_parameters.h
+2018-09-13 12:26:35,096 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:35,095 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\power_stage_parameters.h_save
+2018-09-13 12:26:35,164 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\power_stage_parameters.h
+2018-09-13 12:26:35,196 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:35,196 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\stm32f4xx_mc_it.c_save
+2018-09-13 12:26:35,514 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\stm32f4xx_mc_it.c
+2018-09-13 12:26:35,607 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:35,606 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\mc_parameters.h_save
+2018-09-13 12:26:35,686 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\mc_parameters.h
+2018-09-13 12:26:35,718 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:35,718 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\mc_parameters.c_save
+2018-09-13 12:26:35,976 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\mc_parameters.c
+2018-09-13 12:26:36,057 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:36,057 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\ui_task.c_save
+2018-09-13 12:26:36,154 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\ui_task.c
+2018-09-13 12:26:36,183 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:36,182 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\ui_task.h_save
+2018-09-13 12:26:36,243 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\ui_task.h
+2018-09-13 12:26:36,277 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:36,276 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\user_interface.c_save
+2018-09-13 12:26:36,590 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\user_interface.c
+2018-09-13 12:26:36,622 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:36,622 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\user_interface.h_save
+2018-09-13 12:26:36,739 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\user_interface.h
+2018-09-13 12:26:36,776 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:36,776 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\stm32f4xx_it.c_save
+2018-09-13 12:26:36,857 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\stm32f4xx_it.c
+2018-09-13 12:26:36,887 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:36,887 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\stm32f4xx_it.h_save
+2018-09-13 12:26:37,104 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\stm32f4xx_it.h
+2018-09-13 12:26:37,163 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:37,163 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\stm32f4xx_hal_msp.c_save
+2018-09-13 12:26:37,347 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\stm32f4xx_hal_msp.c
+2018-09-13 12:26:37,372 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:37,372 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\MXTmpFiles\system.tmp_save
+2018-09-13 12:26:37,546 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:37,545 [INFO] CodeEngine:202 - Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\MXTmpFiles\system.tmp
+2018-09-13 12:26:37,668 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:37,664 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\stm32f4xx_hal_conf.h_save
+2018-09-13 12:26:37,795 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\stm32f4xx_hal_conf.h
+2018-09-13 12:26:37,854 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:37,854 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\main.h_save
+2018-09-13 12:26:37,924 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Inc\main.h
+2018-09-13 12:26:37,957 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:37,957 [INFO] CodeEngine:184 - oldGeneratedFile, D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\main.c_save
+2018-09-13 12:26:38,313 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: D:\NewProject\YSF4_FOC-014. FOC_v5.2.0_42PMSM_HALLSensor\Src\main.c
+2018-09-13 12:26:38,868 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:38,868 [INFO] ProjectBuilder:1234 - Time for Copy HAL[0] : 372mS.
+2018-09-13 12:26:38,880 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:38,880 [INFO] ProjectBuilder:1722 - Project Generator version: 2.29.2
+2018-09-13 12:26:38,895 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:38,894 [INFO] ConfigFileManager:635 - The Die is : DIE413
+2018-09-13 12:26:41,665 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:41,665 [INFO] ConfigFileManager:983 - mx.scratch is deleted!
+2018-09-13 12:26:41,666 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:41,665 [INFO] ProjectBuilder:1788 - Time for Generating toolchain IDE Files: 2794mS.
+2018-09-13 12:26:42,342 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:42,342 [INFO] ProjectBuilder:1138 - Time for Copy CMSIS : 677mS.
+2018-09-13 12:26:43,013 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-13 12:26:43,012 [INFO] ProjectBuilder:1138 - Time for Copy CMSIS : 670mS.
+2018-09-13 12:26:45,977 INFO  [Main.lambda$run$0] Code generation completed
+2018-09-13 12:26:45,977 DEBUG [Main.lambda$run$0] System exists with return code 0
