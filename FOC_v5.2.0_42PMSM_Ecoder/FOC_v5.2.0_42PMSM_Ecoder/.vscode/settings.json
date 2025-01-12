@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "limits": "c",
+        "mc_extended_api.h": "c",
+        "mc_api.h": "c",
+        "parameters_conversion.h": "c",
+        "main.h": "c",
+        "mc_type.h": "c",
+        "mc_config.h": "c",
+        "enc_align_ctrl.h": "c",
+        "encoder_speed_pos_fdbk.h": "c",
+        "mc_irq_handler.h": "c",
+        "speed_pos_fdbk.h": "c"
+    }
+}
