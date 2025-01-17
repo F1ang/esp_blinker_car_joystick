@@ -3,7 +3,7 @@
 <title>Static Call Graph - [YS-F4_FOC-020. FOC_v5.4.3_42PMSM_EncoderPosition\YS-F4_FOC-020. FOC_v5.4.3_42PMSM_EncoderPosition]</title></head>
 <body><HR>
 <H1>Static Call Graph for image YS-F4_FOC-020. FOC_v5.4.3_42PMSM_EncoderPosition\YS-F4_FOC-020. FOC_v5.4.3_42PMSM_EncoderPosition</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Sun Jan 12 22:41:08 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Mon Jan 13 21:22:24 2025
 <BR><P>
 <H3>Maximum Stack Usage =        264 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -607,8 +607,8 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f407xx.o(RESET)
 </UL>
 <P><STRONG><a name="[132]"></a>FCP_CalcCRC</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, frame_communication_protocol.o(i.FCP_CalcCRC))
-<BR><BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UFCP_Send
-<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UFCP_RX_IRQ_Handler
+<BR><BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UFCP_RX_IRQ_Handler
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UFCP_Send
 </UL>
 
 <P><STRONG><a name="[131]"></a>FCP_Init</STRONG> (Thumb, 42 bytes, Stack size 0 bytes, frame_communication_protocol.o(i.FCP_Init))
@@ -2034,6 +2034,13 @@ Global Symbols
 <LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MCI_GetIab
 <LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MCI_GetControlMode
 <LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MCI_GetAvrgMecSpeedUnit
+<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TC_GetTargetPosition
+<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TC_GetMoveDuration
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TC_GetCurrentPosition
+<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_GetFaultState
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_GetState
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPD_GetElAngle
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UI_GetDAC
 <LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;VBS_GetAvBusVoltage_V
 <LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STC_GetMinAppNegativeMecSpeedUnit
 <LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STC_GetMaxAppPositiveMecSpeedUnit
@@ -2047,13 +2054,6 @@ Global Symbols
 <LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NTC_GetAvTemp_C
 <LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MPM_GetAvrgElMotorPowerW
 <LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UI_GetSelectedMC
-<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TC_GetTargetPosition
-<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TC_GetMoveDuration
-<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TC_GetCurrentPosition
-<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_GetFaultState
-<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_GetState
-<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPD_GetElAngle
-<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UI_GetDAC
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DAC_Exec
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MCP_ReceivedFrame
@@ -2148,11 +2148,11 @@ Global Symbols
 <P><STRONG><a name="[fa]"></a>UI_TaskInit</STRONG> (Thumb, 144 bytes, Stack size 64 bytes, ui_task.o(i.UI_TaskInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = UI_TaskInit &rArr; MCP_Init &rArr; MCP_WaitNextFrame
 </UL>
-<BR>[Calls]<UL><LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UI_Init
+<BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MCP_Init
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UI_SetDAC
+<LI><a href="#[159]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UI_Init
 <LI><a href="#[15a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UI_DACInit
 <LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UFCP_Init
-<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MCP_Init
-<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UI_SetDAC
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_MotorControl_Init
 </UL>

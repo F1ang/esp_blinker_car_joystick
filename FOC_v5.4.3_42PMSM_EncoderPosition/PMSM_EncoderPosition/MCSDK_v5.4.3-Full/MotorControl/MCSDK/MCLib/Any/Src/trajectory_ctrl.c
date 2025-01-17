@@ -136,6 +136,7 @@ bool TC_MoveCommand(PosCtrl_Handle_t *pHandle, float startingAngle, float angleS
  */
 void TC_FollowCommand(PosCtrl_Handle_t *pHandle, float Angle)
 {
+    /* 位置-时间曲线(二次函数) */
     float omega = 0, acceleration = 0, dt = 0;
 
     // Estimate speed
@@ -182,16 +183,18 @@ void TC_PositionRegulation(PosCtrl_Handle_t *pHandle)
     int32_t hTorqueRef_Pos;
 
     if (pHandle->PositionCtrlStatus == TC_MOVEMENT_ON_GOING) {
-        TC_MoveExecution(pHandle);
+        TC_MoveExecution(pHandle); /* θ位置-速度曲线 */
     }
 
     if (pHandle->PositionCtrlStatus == TC_FOLLOWING_ON_GOING) {
-        TC_FollowExecution(pHandle);
+        TC_FollowExecution(pHandle); /* θ位置-时间曲线 */
     }
 
+    // 上面2曲线分别获取:目标位置pHandle->Theta
     if (pHandle->PositionControlRegulation == ENABLE) {
         wMecAngleRef = (int32_t)(pHandle->Theta * RADTOS16);
 
+        /* 位置电流环控制 */
         wMecAngle = SPD_GetMecAngle(STC_GetSpeedSensor(pHandle->pSTC));
         wError = wMecAngleRef - wMecAngle;
         hTorqueRef_Pos = PID_Controller(pHandle->PIDPosRegulator, wError);
@@ -210,7 +213,7 @@ void TC_MoveExecution(PosCtrl_Handle_t *pHandle)
 {
 
     float jerkApplied = 0;
-
+    /* jerk、acceleration、owega、  */
     if (pHandle->ElapseTime < pHandle->SubStep[0]) // 1st Sub-Step interval time of acceleration phase
     {
         jerkApplied = pHandle->Jerk;
@@ -278,6 +281,7 @@ void TC_EncAlignmentCommand(PosCtrl_Handle_t *pHandle)
     if (pHandle->AlignmentStatus == TC_ALIGNMENT_COMPLETED) {
         // Do nothing - EncAlignment must be done only one time after the power on
     } else {
+        // Z相编码器:转动一圈寻找原点
         if (pHandle->AlignmentCfg == TC_ABSOLUTE_ALIGNMENT_SUPPORTED) {
             // If index is supported start the search of the zero
             pHandle->EncoderAbsoluteAligned = false;
@@ -302,6 +306,7 @@ void TC_EncAlignmentCommand(PosCtrl_Handle_t *pHandle)
  */
 bool TC_RampCompleted(PosCtrl_Handle_t *pHandle)
 {
+    /* 判断MOVEMENT动作是否结束:time */
     bool retVal = false;
 
     // Check that entire sequence (Acceleration - Cruise - Deceleration) is completed.
@@ -337,7 +342,7 @@ void TC_EncoderReset(PosCtrl_Handle_t *pHandle)
  */
 float TC_GetCurrentPosition(PosCtrl_Handle_t *pHandle)
 {
-
+    /* 获取现在的位置 */
     return ((float)((SPD_GetMecAngle(STC_GetSpeedSensor(pHandle->pSTC))) / RADTOS16));
 }
 
